@@ -1,2 +1,2 @@
 # i3_parts
-Prusa i3 3D printer parts
+Nova Labs Prusa i3 3D printer parts
