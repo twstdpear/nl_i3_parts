@@ -50,11 +50,11 @@ You'll need a computer for this process, such as Pronterface or the Aduino
 IDE's terminal.  You can also adjust the M851 value from the LCD menu at the 
 top of the Control->Motion menu.
 
-G0 F9000 ; only need this the first time to set your speed
-G28 ; Home X/Y/Z
-G0 X100 Y100 Z0 ; go to Z=0 and test with the paper
-M851 Z-1.25 ; Adjust your Z offset based on the results.  
-;Go back to G28 above.
+G0 F9000 ; only need this the first time to set your speed<BR>
+G28 ; Home X/Y/Z<BR>
+G0 X100 Y100 Z0 ; go to Z=0 and test with the paper<BR>
+M851 Z-1.25 ; Adjust your Z offset based on the results.  <BR>
+;Go back to G28 above.<BR>
 M500 ; when you're happy with the results to save it to the EEPROM
 
 Your M851 value should be somewhere between -1.0mm and -2.0mm.  I prefer it to 
