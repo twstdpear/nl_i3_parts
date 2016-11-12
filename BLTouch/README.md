@@ -23,6 +23,8 @@ above, since it natively supports the BLTouch without additional modifications.
 Any other version will require side-by-side comparison of the configuration 
 files at a minimum, maybe more.
 
+The BLTouch can be purchased at [Amazon](https://smile.amazon.com/dp/B01FFV2TOS)
+
 # Installation/configuration
 
 Here's some videos demonstating what we're trying to accomplish:
@@ -56,6 +58,7 @@ G0 X100 Y100 Z0 ; go to Z=0 and test with the paper<BR>
 M851 Z-1.25 ; Adjust your Z offset based on the results.  <BR>
 ;Go back to G28 above.<BR>
 M500 ; when you're happy with the results to save it to the EEPROM
+M48 V3 ; Run repeatability test - range should be 0.02mm or less.
 
 Your M851 value should be somewhere between -1.0mm and -2.0mm.  I prefer it to 
 be closer to -1.0mm so the probe is a little higher when stowed, so there's 
