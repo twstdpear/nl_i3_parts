@@ -27,7 +27,7 @@ files at a minimum, maybe more.
 
 Here's some videos demonstating what we're trying to accomplish:
 
-[Tutorial - ANTCLABS BLTouch Install - Part 1 - 3D Printing](https://www.youtube.com/watch?v=dB6QjifoYDU)
+[Tutorial - ANTCLABS BLTouch Install - Part 1 - 3D Printing](https://www.youtube.com/watch?v=dB6QjifoYDU)<BR>
 [Tutorial - ANTCLABS BLTouch Install - Part 2 - 3D Printing](https://www.youtube.com/watch?v=OoWP5C8lSig)
 
 To get your Z height correct, I found that 2 post-it notes put the hot end of 
@@ -63,7 +63,7 @@ just a little more clearance if your print curls up.
 
 # Connecting it to your RAMBo
 
-[RAMBo board documentation](http://reprap.org/wiki/Rambo)
+[RAMBo board documentation](http://reprap.org/wiki/Rambo)<BR>
 [RAMBo connector diagram](http://reprap.org/mediawiki/images/5/5c/Rambo-conn-all.jpg)
 
 You'll be connecting your BLTouch to pins 1-3 of the X20 motor extension and 
@@ -73,19 +73,20 @@ Review the connector diagram above.  The X20 motor extension is the leftmost
 of the three, and Pin 1 is at the bottom.  You should already be using Z-min 
 for your existing probe.
 
-BLTouch Red -> X20 Pin 1 (5V)
-BLTouch Brown -> X20 Pin 2 (GND)
-BLTouch Orange -> X20 Pin 3 (Signal)
-BLTouch Black -> Z-min "-" (GND)
-BLTouch White -> Z-Min "S" (Signal)
+* BLTouch Red -> X20 Pin 1 (5V)
+* BLTouch Brown -> X20 Pin 2 (GND)
+* BLTouch Orange -> X20 Pin 3 (Signal)
+* BLTouch Black -> Z-min "-" (GND)
+* BLTouch White -> Z-Min "S" (Signal)
 
-You Since X20 Pin 2 and Z-min "-" are both grounds, you can save a wire by using the following:
+Since X20 Pin 2 and Z-min "-" are both grounds, you can save a wire by using 
+the following:
 
-BLTouch Red -> X20 Pin 1 
-BLTouch Brown -> X20 Pin 2
-BLTouch Orange -> X20 Pin 3
-BLTouch Black -> tie to BLTouch Brown
-BLTouch White -> Z-Min "S"
+* BLTouch Red -> X20 Pin 1 
+* BLTouch Brown -> X20 Pin 2
+* BLTouch Orange -> X20 Pin 3
+* BLTouch Black -> tie to BLTouch Brown
+* BLTouch White -> Z-Min "S"
 
 Whatever you do, check, check and re-check the 5V and GND, or you could damage 
 your BLTouch.
@@ -93,3 +94,5 @@ your BLTouch.
 #Conclusion
 
 Hopefully that gives you enough breadcrumbs to get everything set up.
+
+Good Luck!
