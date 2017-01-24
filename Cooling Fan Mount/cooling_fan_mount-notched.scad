@@ -1,4 +1,4 @@
-
+//$fn=180; // Uncomment before exporting for fine finish
 
 hot_rad = 30/2/cos(30);
 hotend_x=25;
@@ -11,7 +11,8 @@ wall=2;
 slop=.2;
 
 fan_hole = (40-wall-wall)/2;
-mount_drop = 10;
+//mount_drop = 18; // E3Dv5
+mount_drop = 10; // E3Dv6
 fan_z = fan_hole+wall;
 
 fan_mount();
