@@ -16,14 +16,12 @@ The washers are used as shims between the mount and the BLTouch to fine-tune
 the height.  The exact number may vary, but 2 on each side is probably a 
 good starting point.  Too many is better than too few.
 
-Included is my Configuration.h and Configuration_adv.h for Marlin.  You shoudl be able to drop it right into Marlin RCBugFix commit #8ddd039, which is post RC7 
-and has proven to be pretty stable for me.  Note that this is for a BG8 
-machine, which has a RAMBo controller. It's recommended to use Marlin RC7 or 
-above, since it natively supports the BLTouch without additional modifications.
+Included is my Configuration.h and Configuration_adv.h for Marlin v1.1.3.  
 Any other version will require side-by-side comparison of the configuration 
 files at a minimum, maybe more.
 
-The BLTouch can be purchased at [Amazon](https://smile.amazon.com/dp/B01FFV2TOS)
+The BLTouch can be purchased from [various locations](https://www.antclabs.com/store)
+including [Amazon](https://smile.amazon.com/dp/B01FFV2TOS).
 
 # Installation/configuration
 
@@ -61,7 +59,7 @@ M500 ; when you're happy with the results to save it to the EEPROM
 M48 V3 ; Run repeatability test - range should be 0.02mm or less.
 
 Your M851 value should be somewhere between -1.0mm and -2.0mm.  I prefer it to 
-be closer to -1.0mm so the probe is a little higher when stowed, so there's 
+be above -1.0mm so the probe is a little higher when stowed, so there's 
 just a little more clearance if your print curls up.
 
 # Connecting it to your RAMBo
